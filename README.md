@@ -1,37 +1,41 @@
 # Website Projects
 
-A collection of two websites built with Hatchable, organized for source-code documentation and responsible public sharing.
+Two website projects covering local commerce and outpatient administration.
 
-## Projects
-
-| Project | Description | Live Site |
+| Project | Features | Live application |
 | --- | --- | --- |
-| [01 — Namma Ooru Market](./01-Namma-Ooru-Market/) | Local vegetable and grocery ordering web application | [Visit](https://namma-ooru-market.hatchable.site) |
-| [02 — SK Hospital OP Management](./02-SK-Hospital-OP-Management/) | Outpatient registration, queue and billing workflow | [Visit](https://sk-hospital-op.hatchable.site) |
+| [Namma Ooru Market](./01-Namma-Ooru-Market/) | Produce catalog, shopping cart, checkout and tracking | [Visit website](https://namma-ooru-market.hatchable.site) |
+| [SK Hospital OP Management](./02-SK-Hospital-OP-Management/) | OP registration, daily queue and payment workflow | [Visit website](https://sk-hospital-op.hatchable.site) |
 
-## Repository layout
+## Technology stack
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** Node.js, Express REST API
+- **Database:** SQLite, SQL schema and initial records
 
+## Repository structure
 ```text
 Website-Projects/
 ├── 01-Namma-Ooru-Market/
 │   ├── frontend/
 │   ├── backend/
+│   ├── database/
 │   ├── assets/
 │   └── README.md
 ├── 02-SK-Hospital-OP-Management/
 │   ├── frontend/
 │   ├── backend/
+│   ├── database/
 │   ├── assets/
 │   └── README.md
-├── .gitignore
 ├── README.md
-└── SECURITY.md
+├── SECURITY.md
+└── .gitignore
 ```
 
-## Source-code status
+## About this code
 
-These folders are placeholders for **reviewed, publishable code**. The actual deployed applications run on Hatchable. A live link does not mean the full source code, database, or infrastructure is in this repository. Do not treat this repository as a runnable clone until the reviewed code is added.
+The repository contains **standalone local implementations** based on the features of two applications built on Hatchable. They are not exact exports of their deployed Hatchable source or infrastructure. Each project can be started independently on a local computer; the local SQLite database does not connect to any Hatchable production database.
 
-## Security
+Please see the individual project READMEs for setup instructions. **Do not use the hospital backend with real patient information or expose it publicly** until access controls and privacy protections have been added and tested.
 
-No actual patient/customer records, API keys, passwords, session data or database dumps belong here. See [SECURITY.md](./SECURITY.md). Authentication and authorization must be enforced on the server, not by hiding an admin link.
+See [SECURITY.md](SECURITY.md).

@@ -1,27 +1,31 @@
-# SK Hospital — OP Management System
+# SK Hospital OP Management
 
-An outpatient registration and workflow-management web application developed with Hatchable.
+Outpatient registration and clinic workflow web application.
 
-**Live application:** https://sk-hospital-op.hatchable.site
+**Live Hatchable website:** https://sk-hospital-op.hatchable.site
 
-## Features observed in the Hatchable source
+## Features
+- Patient registration
+- Daily OP token numbers
+- Today's queue dashboard
+- Consultation and payment status
+- Node.js REST API with SQLite database
 
-- OP patient registration
-- Daily patient token tracking
-- Nurse-facing patient queue
-- Doctor workflow and consultation status
-- Billing and payment-status workflow
+## Technology
+HTML • CSS • JavaScript • Node.js • Express • SQLite
 
-## Code layout
+## Project files
+- `frontend/`: index.html, style.css, app.js
+- `backend/`: server.js, package.json
+- `database/`: schema.sql, seed.sql
 
-- `frontend/` — reviewed, publishable UI files
-- `backend/` — backend code only after authorization and privacy review
-- `assets/` — non-sensitive visual assets
+## Run locally
+1. Install Node.js 20 or newer.
+2. Open a terminal in `02-SK-Hospital-OP-Management/backend`.
+3. Run `npm install` and `npm start`.
+4. Open http://127.0.0.1:3002
 
-## Patient privacy
+Database initialization runs automatically and loads fictional example records.
 
-**No real patient names, phone numbers, complaints, visits, billing records, exported database contents, passwords, private API configuration, or admin credentials are included in this public repository.** Do not upload screenshots containing patient details.
-
-**Status:** Documentation/folder structure only; production source is not yet published here.
-
-Production runs on Hatchable. Never rely on a hidden admin URL as an access control.
+## Privacy and deployment
+This is a **local-only standalone implementation**, not the production Hatchable application. It contains **no real patient data**. The backend intentionally binds to localhost and does **not** implement production authentication or role-based authorization; do not expose it to the internet, host it publicly, or enter real patient information without first implementing and testing appropriate safeguards.

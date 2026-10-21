@@ -14,11 +14,21 @@ Outpatient registration and management application with patient tokens, daily qu
 
 [Explore Hospital Website source code](./02-Hospital-Website/)
 
-## Technology Stack
+## Languages and Technologies
 
-- **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Node.js, Express
-- **Database:** SQLite
+| Category | Used |
+| --- | --- |
+| Markup | HTML5 |
+| Styling | CSS3 |
+| Programming | JavaScript (browser and server) |
+| Database language | SQL |
+| JavaScript runtime | Node.js |
+| Backend framework | Express.js |
+| Database engine | SQLite |
+| Integration | REST API, JSON |
+| Package management | npm |
+
+**Languages:** HTML, CSS, JavaScript, SQL. Node.js, Express and SQLite are technologies, not separate programming languages.
 
 ## Structure
 ```text

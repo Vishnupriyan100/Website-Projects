@@ -1,0 +1,2 @@
+-- Fictional, non-identifying example records for the local application.
+INSERT INTO patients(token,visit_date,name,age,gender,complaint,status,payment_status) VALUES (1,strftime('%Y-%m-%d','now','+5 hours','+30 minutes'),'Example Patient A',28,'Female','Routine checkup','waiting','pending'),(2,strftime('%Y-%m-%d','now','+5 hours','+30 minutes'),'Example Patient B',34,'Male','General consultation','completed','paid');

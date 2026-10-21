@@ -1,0 +1,36 @@
+# Credentials and local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+**/service-account*.json
+
+# Database files, backups, exports
+*.sqlite
+*.sqlite3
+*.db
+*.sql.gz
+*.dump
+*.bak
+backups/
+exports/
+patient-data/
+customer-data/
+private/
+*.csv
+*.xlsx
+
+# Dependencies and build artefacts
+node_modules/
+dist/
+build/
+coverage/
+.cache/
+.DS_Store
+Thumbs.db
+*.log

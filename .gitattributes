@@ -1,0 +1,10 @@
+# GitHub Linguist: recognize the actual source files in both projects.
+# These attributes affect GitHub's language statistics, not application behavior.
+*.html linguist-language=HTML linguist-detectable=true
+*.css linguist-language=CSS linguist-detectable=true
+*.js linguist-language=JavaScript linguist-detectable=true
+*.sql linguist-language=SQL linguist-detectable=true
+
+# Exclude empty folder markers and repository documentation from language totals.
+*.md linguist-documentation
+.gitkeep linguist-detectable=false

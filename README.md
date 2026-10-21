@@ -1,41 +1,49 @@
 # Website Projects
 
-Two website projects covering local commerce and outpatient administration.
+A collection of web development projects demonstrating user interfaces, backend APIs, database design and practical workflows.
 
-| Project | Features | Live application |
-| --- | --- | --- |
-| [Namma Ooru Market](./01-Namma-Ooru-Market/) | Produce catalog, shopping cart, checkout and tracking | [Visit website](https://namma-ooru-market.hatchable.site) |
-| [SK Hospital OP Management](./02-SK-Hospital-OP-Management/) | OP registration, daily queue and payment workflow | [Visit website](https://sk-hospital-op.hatchable.site) |
+## Projects
 
-## Technology stack
+### 01 — Market Website
+Vegetable and grocery shopping application featuring product browsing, search, cart, order placement and order tracking.
+
+[Explore Market Website source code](./01-Market-Website/)
+
+### 02 — Hospital Website
+Outpatient registration and management application with patient tokens, daily queue, consultation status and payment tracking.
+
+[Explore Hospital Website source code](./02-Hospital-Website/)
+
+## Technology Stack
+
 - **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Node.js, Express REST API
-- **Database:** SQLite, SQL schema and initial records
+- **Backend:** Node.js, Express
+- **Database:** SQLite
 
-## Repository structure
+## Structure
 ```text
 Website-Projects/
-├── 01-Namma-Ooru-Market/
+├── 01-Market-Website/
 │   ├── frontend/
 │   ├── backend/
 │   ├── database/
 │   ├── assets/
 │   └── README.md
-├── 02-SK-Hospital-OP-Management/
+├── 02-Hospital-Website/
 │   ├── frontend/
 │   ├── backend/
 │   ├── database/
 │   ├── assets/
 │   └── README.md
 ├── README.md
-├── SECURITY.md
-└── .gitignore
+├── .gitignore
+└── SECURITY.md
 ```
 
-## About this code
+## Run Locally
 
-The repository contains **standalone local implementations** based on the features of two applications built on Hatchable. They are not exact exports of their deployed Hatchable source or infrastructure. Each project can be started independently on a local computer; the local SQLite database does not connect to any Hatchable production database.
+Each project includes its own README and Node.js backend. Open its `backend` directory, run `npm install` and `npm start`, then visit the localhost address shown in its README.
 
-Please see the individual project READMEs for setup instructions. **Do not use the hospital backend with real patient information or expose it publicly** until access controls and privacy protections have been added and tested.
+The standalone source implementations and their fictional seed records are separate from any privately hosted operational application. The Hospital Website backend is **local-use only** until authentication, role authorization and privacy safeguards have been implemented and tested. Do not process real patient data with it.
 
-See [SECURITY.md](SECURITY.md).
+See [SECURITY.md](./SECURITY.md).

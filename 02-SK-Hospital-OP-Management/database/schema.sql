@@ -1,1 +1,0 @@
-CREATE TABLE IF NOT EXISTS patients(id INTEGER PRIMARY KEY,token INTEGER NOT NULL,visit_date TEXT NOT NULL,name TEXT NOT NULL,age INTEGER NOT NULL,gender TEXT NOT NULL,complaint TEXT NOT NULL,status TEXT NOT NULL DEFAULT 'waiting',payment_status TEXT NOT NULL DEFAULT 'pending',UNIQUE(visit_date,token));

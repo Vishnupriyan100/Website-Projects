@@ -10,28 +10,6 @@ Vegetable and grocery ordering website project.
 - Local Node.js REST API
 - SQLite product and order database
 
-## Languages and Technologies
-
-| Category | Used |
-| --- | --- |
-| Markup | HTML5 |
-| Styling | CSS3 |
-| Programming | JavaScript (browser and server) |
-| Database language | SQL |
-| JavaScript runtime | Node.js |
-| Backend framework | Express.js |
-| Database engine | SQLite |
-| Integration | REST API, JSON |
-| Package management | npm |
-
-**Languages:** HTML, CSS, JavaScript, SQL. Node.js, Express and SQLite are technologies, not separate programming languages.
-
-
-## Project files
-- `frontend/`: index.html, style.css, app.js
-- `backend/`: server.js, package.json
-- `database/`: schema.sql, seed.sql
-
 ## Run locally
 1. Install Node.js 20 or newer.
 2. Open a terminal in `01-Market-Website/backend`.

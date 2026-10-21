@@ -1,1 +1,0 @@
-INSERT INTO products(name,category,price,stock,icon) VALUES ('Tomato','Vegetables',35,40,'🍅'),('Onion','Vegetables',42,35,'🧅'),('Carrot','Vegetables',55,26,'🥕'),('Potato','Vegetables',30,48,'🥔'),('Apple','Fruits',145,16,'🍎'),('Banana','Fruits',50,30,'🍌');

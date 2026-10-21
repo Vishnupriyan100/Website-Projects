@@ -1,26 +1,31 @@
 # Namma Ooru Market
 
-A local vegetable and grocery marketplace website developed with Hatchable.
+Vegetable and grocery ordering website project.
 
-**Live website:** https://namma-ooru-market.hatchable.site
+**Live Hatchable website:** https://namma-ooru-market.hatchable.site
 
-## Features observed in the Hatchable source
-
-- Product listing and categories
-- Product search and freshness/stock display
+## Features
+- Product catalog, search and stock
 - Cart and checkout
-- Order tracking
-- Shop-side product and order management
-- Tamil and English storefront content
+- Order tracking using order number and phone
+- Local Node.js REST API
+- SQLite product and order database
 
-## Code layout
+## Technology
+HTML • CSS • JavaScript • Node.js • Express • SQLite
 
-- `frontend/` — reviewed, publishable user-interface files
-- `backend/` — backend code only after security review
-- `assets/` — public, non-sensitive images and documentation assets
+## Project files
+- `frontend/`: index.html, style.css, app.js
+- `backend/`: server.js, package.json
+- `database/`: schema.sql, seed.sql
 
-**Status:** Structure/documentation added. Original application source code has not yet been published here. Database records and private credentials will not be copied.
+## Run locally
+1. Install Node.js 20 or newer.
+2. Open a terminal in `01-Namma-Ooru-Market/backend`.
+3. Run `npm install` and `npm start`.
+4. Open http://127.0.0.1:3001
 
-## Hosting
+The local database is automatically initialized using `schema.sql` and sample inventory from `seed.sql`.
 
-Production runs on Hatchable. Local setup instructions will be added only after the actual deployable source has been reviewed.
+## Note
+This standalone implementation is separate from the deployed Hatchable application and does not access its production API or database. Sample records are fictional. Production deployment requires additional security controls and testing.
